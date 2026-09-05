@@ -1,0 +1,25 @@
+.product-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    /* padding-top: 4rem; */
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .addtocartbtn:hover {
+    background-color: #F7CA00;
+}
